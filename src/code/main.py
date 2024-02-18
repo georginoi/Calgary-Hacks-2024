@@ -156,6 +156,7 @@ def draw_metrics(surface, study_time, account_balance, credit, credit_score):
 # Job
 job = False
 
+#boolean allows the metric to be changed once. then its turned to false so it cant be changed
 scenario_1_metric_bool = True
 scenario_2_metric_bool = True
 scenario_3_metric_bool = True
